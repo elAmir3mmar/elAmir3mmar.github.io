@@ -1,0 +1,77 @@
+/*html, body,
+{
+	height: 100%;
+	width: 100%
+
+
+	top:0;
+	bottom:0; 
+	left:0;
+	right:0;
+}
+*/
+
+
+body
+{
+	background: #000 url("Wallpaper.jpg") no-repeat fixed center; 
+	
+	/*background-image: url('Wallpaper.jpg');
+	background-size: 1366px 728px;
+	background-repeat: no-repeat;*/
+	
+	/*margin: 30px 0 0 0;*/
+	vertical-align: middle;
+	display: inline;
+	
+}
+
+
+#frame
+{
+	/*max-height: 600px;*/
+    height: 100%;
+
+}
+
+
+#helper
+{
+	height: 100%;
+    vertical-align: middle;
+}
+
+
+#wings
+{
+	max-height: 20%;
+	min-height: 50px;
+	position: absolute;
+	right: 10%;
+	top: 50%;
+	transform: translateY(-50%);
+	vertical-align: middle;
+}
+
+#links
+{
+	/*width: 50%;*/
+	min-height: 20px; 
+	color: #fff;
+	font-size: 40px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	vertical-align: middle;
+
+}
+
+#links:hover
+{
+	font-style: italic;
+}
+div #links li:hover
+{
+	text-decoration: underline;
+	color: #EA1D4D;
+}
