@@ -13,8 +13,16 @@ h1, h2
 	text-align: center;
 	color: #B76E79;
 }
-
-
+#ammara
+{
+	
+}
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
 body
 {
     /*background: #5f5765 url("Images/Wallpaper2.jpg") fixed center; */
