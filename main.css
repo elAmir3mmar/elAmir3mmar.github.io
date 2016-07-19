@@ -8,11 +8,16 @@ html, body, .container, #left, #right
     font-family: serif;
     color: white;
 }
+h1, h2
+{
+	text-align: center;
+}
+
 
 body
 {
-    background: #5f5765 url("Images/Wallpaper2.jpg") fixed center; 
-    background-size: auto 110%;
+    /*background: #5f5765 url("Images/Wallpaper2.jpg") fixed center; */
+    /*background-size: auto 110%;*/
 }
 
 .container
